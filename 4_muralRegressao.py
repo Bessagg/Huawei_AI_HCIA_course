@@ -68,7 +68,8 @@ def minimizacao_residuo(x_medido, y_medido, taxa_aprendizagem, iteracoes=100):
     return y_aproximado, residuo
 
 
-# Gera uma grade com 100 figuras (10x10)
+# Gera uma grade com figuras representando resultado do treinamento para diferentes
+# números de iterações e de taxa de aprendizagem
 fig, axis = plt.subplots(nrows=numberOfSlices, ncols=numberOfSlices, sharex=True, figsize=(25, 25))
 
 # Gera duas listas x e y de entrada
@@ -143,7 +144,8 @@ def minimizacao_residuo(x_medido, y_medido, taxa_aprendizagem, iteracoes=100):
     return y_aproximado, residuo
 
 
-# Gera uma grade com 100 figuras (10x10)
+# Gera uma grade com figuras representando resultado do treinamento para diferentes
+# números de iterações e de taxa de aprendizagem
 fig, axis = plt.subplots(nrows=numberOfSlices, ncols=numberOfSlices, sharex=True, figsize=(25, 25))
 
 # Gera duas listas x e y de entrada
